@@ -1,0 +1,64 @@
+{
+  "products":[
+      {
+
+        "id":1, 
+        "name":"1 مکعب روبیک", 
+        "description" : "مکعب روبیک", 
+        "imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Rubik%27s_cube.svg/1966px-Rubik%27s_cube.svg.png", 
+        "price" : 288
+
+
+      },
+      {
+
+        "id":1, 
+        "name":" خرس تدی 1  ", 
+        "description" : "مکعب روبیک", 
+        "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXoL90Hc3hXK0Ulk90onzMtrQdFf4y2dDQeA&usqp=CAU", 
+        "price" : 300
+
+
+      },
+      {
+
+        "id":1, 
+        "name":"1 خرس تدی  ", 
+        "description" : " خرس تدی", 
+        "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM8Oag-8GvIkJP9OxGY5sa66GEV7negje-4hFKAFllis31s1dDpPAduvwOcW0qwnk9tm4&usqp=CAU", 
+        "price" : 400
+
+
+      },
+      {
+
+        "id":1, 
+        "name":"تک شاخ  ", 
+        "description" : "تک شاخ" , 
+        "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO6ewM5oi7ZgUf_6f4rISWfJHu_AFuj-yXsw&usqp=CAU", 
+        "price" : 500
+
+
+      }
+  
+  ],
+
+
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

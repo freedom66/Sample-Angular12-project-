@@ -1,0 +1,71 @@
+{
+
+  "products":[
+     
+     {
+        "id":1,
+        "name":"1 مکعب روبیک",
+         "description" :"1 مکعب روبیک", 
+         "imgUrl": "https://practech.org/wp-content/uploads/2020/05/rubiks-cube.jpg",
+         "price": 299
+
+
+     },
+     {
+      "id":2,
+      "name":"2 مکعب روبیک",
+       "description" :"2 مکعب روبیک", 
+       "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREk6iY_slhQOyHZaJML2QLlaD2mJsvQrw7Tg&usqp=CAU",
+       "price": 199
+
+
+   },
+   {
+    "id":3,
+    "name":"3 مکعب روبیک",
+     "description" :"3 مکعب روبیک", 
+     "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxrSM1JPSU9SLRU-XVMOdBJMBmGPkPpWAf-g&usqp=CAU",
+     "price": 499
+
+
+ },
+ {
+  "id":4,
+  "name":"4 مکعب روبیک",
+   "description" :"مکعب روبیک 4", 
+   "imgUrl": "https://m.media-amazon.com/images/I/71AFmVZJaoL._AC_SL1500_.jpg",
+   "price": 599
+
+
+},
+{
+  "id":5,
+  "name":"تک شاخ ",
+   "description" :"تک شاخ", 
+   "imgUrl": "https://m.media-amazon.com/images/I/41SRxyscw7L._SX679_.jpg",
+   "price": 299
+
+
+}
+  ],
+
+  "carts": [],
+
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
