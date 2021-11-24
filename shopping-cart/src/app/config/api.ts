@@ -7,4 +7,4 @@ export const productsUrl=baseUrl + '/products';
 
 export const cartUrl =baseUrl+ '/cart';
 
-export  const wishlistUrl=baseUrl+'/wishList'
+export  const wishlistUrl=baseUrl+'/wishList';
