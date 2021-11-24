@@ -65,7 +65,7 @@
       "postId": 1
     }
   ],
- "whishList":[],
+ "whishList":[{}],
 
   "profile": {
     "name": "typicode"
