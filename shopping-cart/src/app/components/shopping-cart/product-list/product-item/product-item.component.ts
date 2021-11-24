@@ -4,6 +4,7 @@ import { ActivatedRoute,Router } from '@angular/router';
 import { MessengerService } from 'src/app/services/messenger.service';
 
 import { CartService } from 'src/app/services/cart.service';
+import { WishListService } from 'src/app/services/wish-list.service';
 
 @Component({
   selector: 'app-product-item',
@@ -13,10 +14,12 @@ import { CartService } from 'src/app/services/cart.service';
 export class ProductItemComponent implements OnInit {
 
  @Input() productItem:Product
+ addedTowishList:boolean=false;
 
   constructor(private _router:Router , 
     private msg :MessengerService, 
-    private cartService: CartService ) 
+    private cartService: CartService, 
+    private wishlistService : WishListService ) 
   { }
 
 
@@ -50,6 +53,29 @@ export class ProductItemComponent implements OnInit {
      
 
     //}
+
+
+    handleAddToWishlist() {
+     this.wishlistService.addToWishList(this.productItem.id).subscribe(()=>{
+
+        this. addedTowishList=true;
+
+
+
+     })
+
+    }
+
+    handleRemoveFrowishList(){
+      this.wishlistService.removeFromWishlist(this.productItem.id ).subscribe(()=>{
+        
+        this.addedTowishList=false;
+
+
+
+      })
+
+    }
 
 
 
